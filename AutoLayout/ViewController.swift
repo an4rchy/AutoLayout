@@ -20,13 +20,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func login() {
+        loggedInUser = User.login(loginField.text ?? "", password: passwordField.text ?? "")
         
     }
     override func viewDidLoad() {
         super.viewDidLoad()
         updateUI()
     }
-    
+    var loggedInUser: User? { didSet { updateUI()}}
     var secure:Bool = false {didSet {updateUI()}}
     
     private func updateUI() {
