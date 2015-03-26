@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79D8EFF51AC45A9700F8CCAD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D8EFF41AC45A9700F8CCAD /* User.swift */; };
 		79DA62EC1AC2010F0028BB46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA62EB1AC2010F0028BB46 /* AppDelegate.swift */; };
 		79DA62EE1AC2010F0028BB46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA62ED1AC2010F0028BB46 /* ViewController.swift */; };
 		79DA62F11AC2010F0028BB46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79DA62EF1AC2010F0028BB46 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		79D8EFF41AC45A9700F8CCAD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		79DA62E61AC2010F0028BB46 /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DA62EA1AC2010F0028BB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79DA62EB1AC2010F0028BB46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		79DA62E81AC2010F0028BB46 /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				79D8EFF41AC45A9700F8CCAD /* User.swift */,
 				79DA62ED1AC2010F0028BB46 /* ViewController.swift */,
 				79DA62EF1AC2010F0028BB46 /* Main.storyboard */,
 				79DA62F21AC2010F0028BB46 /* Images.xcassets */,
@@ -214,6 +217,7 @@
 			files = (
 				79DA62EE1AC2010F0028BB46 /* ViewController.swift in Sources */,
 				79DA62EC1AC2010F0028BB46 /* AppDelegate.swift in Sources */,
+				79D8EFF51AC45A9700F8CCAD /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				79DA63071AC2010F0028BB46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79DA63081AC2010F0028BB46 /* Build configuration list for PBXNativeTarget "AutoLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				79DA630A1AC2010F0028BB46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
